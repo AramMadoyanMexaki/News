@@ -1,0 +1,26 @@
+body {
+    user-select: none;
+    background-color: aliceblue;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.sections {
+    margin-top: 120px;
+    margin-left: 35px;
+}
+
+.tech-title {
+    margin-bottom: 20px;
+}
+
+.tech-image {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 600px;
+    height: 300px;
+}

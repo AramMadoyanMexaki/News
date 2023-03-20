@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Ibarra+Real+Nova:ital,wght@0,400;0,700;1,400&family=League+Script&family=Nanum+Gothic:wght@700&family=New+Tegomin&family=Oswald:wght@600&family=Pinyon+Script&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400&family=Sono&family=Work+Sans:ital,wght@1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #3A74A3;
+}
+
+/* Navigation */
+
+.main-icon {
+  width: 110px;
+  margin-left: 45px;
+  margin-top: -10px;
+  height: 80px;
+  background-color: #F0474F;
+}
+
+.nav-list .nav-list-item {
+  list-style: none;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list .link {
+    margin-right: 0;
+    margin-left: 120px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.App-nav {
+    position: absolute;
+    top: 10px;
+    left: 520px;
+}
+
+.log-in {
+    order: 4;
+    margin-left: 90px;
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: #3A74A3;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4px;
+    cursor: pointer;
+}
